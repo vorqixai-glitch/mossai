@@ -6,10 +6,10 @@ import heroOrb from "@/assets/hero-orb.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Emergent — AI chat workspace for serious thinking" },
+      { title: "MOSS — AI chat workspace for serious thinking" },
       { name: "description", content: "Multi-model AI chat with projects, artifacts, and prompt libraries. Built for people who ship." },
-      { property: "og:title", content: "Emergent — AI chat workspace" },
-      { property: "og:description", content: "Multi-model AI chat with projects, artifacts, and prompt libraries." },
+      { property: "og:title", content: "MOSS — AI chat workspace for serious thinking" },
+      { property: "og:description", content: "Multi-model AI chat with projects, artifacts, and prompt libraries. Built for people who ship." },
     ],
   }),
   component: Landing,
